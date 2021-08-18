@@ -1,0 +1,383 @@
+
+html{
+	scroll-behavior: smooth;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*топ 10 брендов*/
+.hading-top10-popul-brans{
+	font-size: 25px;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.list-brands{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 18px;
+	justify-content: space-around;
+
+}
+
+.list-brands li a:hover{
+	padding: 0;
+	background-color: transparent;
+}
+.list-brands ul{
+	min-height: 100px;
+	display: flex;
+}
+.list-one ul{
+	justify-content: space-between;
+	flex-direction: column;
+	
+}
+.list-two ul{
+	justify-content: center;
+	flex-direction: column;
+}
+.list-three ul{
+	justify-content: space-between;
+	flex-direction: column;
+}
+.list-four ul{
+	justify-content: center;
+	flex-direction: column;
+}
+.list-five ul{
+	justify-content: space-between;
+	flex-direction: column;
+}
+.list-six ul{
+	justify-content: center;
+	flex-direction: column;
+}
+.list-seven ul{
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.list-brands li a{
+	color: black;
+}
+
+.list-brands li{
+	border-radius: 10px;
+	transition: 0.5s;
+	padding: 10px;
+	text-align: center;
+}
+.list-brands .list-one ul li{
+	display: inline-block;
+	background-color: #F6C1FF;
+	
+}
+.list-brands .list-two ul li{	
+	display: inline-block;
+	background-color: #90E190;
+}
+.list-brands .list-three ul li{	
+	display: inline-block;
+	background-color: #FFE96B;
+}
+
+.list-brands .list-four ul li{
+	display: inline-block;
+	font-size: 50px;
+}
+.list-brands .list-five ul li{	
+	display: inline-block;
+	background-color: #FFE96B;
+}
+.list-brands .list-six ul li{	
+	display: inline-block;
+	background-color: #90E190;
+}
+.list-brands .list-seven ul li{	
+	display: inline-block;
+	background-color: #F6C1FF;
+}
+
+/*zara*/
+.zara-brend{
+	margin-top: 100px;
+}
+.zara{
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+.zara ul{
+	margin-top: 30px;
+}
+.zara ul li{
+	list-style-type: none;
+}
+
+/*ostin*/
+.ostin-brend{
+	margin-top: 50px;
+}
+.ostin{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.ostin ul{
+	margin-top: 30px;
+}
+.ostin ul li{
+	list-style-type: none;
+}
+
+/*H&M*/
+.H_M-brend{
+		margin-top: 50px;
+}
+.H_M{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.H_M ul{
+	margin-top: 30px;
+}
+.H_M ul li{
+	list-style-type: none;
+}
+
+/*Gloria_Jeans*/
+.Gloria-Jeans-brend{
+		margin-top: 50px;
+}
+.Gloria_Jeans{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Gloria_Jeans ul{
+	margin-top: 30px;
+}
+.Gloria_Jeans ul li{
+	list-style-type: none;
+}
+
+/*Reserved*/
+.Reserved-brend{
+		margin-top: 50px;
+}
+.Reserved{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Reserved ul{
+	margin-top: 30px;
+}
+.Reserved ul li{
+	list-style-type: none;
+}
+
+/*Bershka*/
+.Bershka-brend{
+		margin-top: 50px;
+}
+.Bershka{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Bershka ul{
+	margin-top: 30px;
+}
+.Bershka ul li{
+	list-style-type: none;
+}
+
+/*Oodji*/
+.Oodji-brend{
+		margin-top: 50px;
+}
+.Oodji{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Oodji ul{
+	margin-top: 30px;
+}
+.Oodji ul li{
+	list-style-type: none;
+}
+
+/*Stradivarius*/
+.Stradivarius-brend{
+		margin-top: 50px;
+}
+.Stradivarius{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Stradivarius ul{
+	margin-top: 30px;
+}
+.Stradivarius ul li{
+	list-style-type: none;
+}
+
+/*Next*/
+.Next-brend{
+		margin-top: 50px;
+}
+.Next{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Next ul{
+	margin-top: 30px;
+}
+.Next ul li{
+	list-style-type: none;
+}
+
+/*Love-Republic*/
+.Love-Republic-brend{
+		margin-top: 50px;
+}
+.Love-Republic{
+
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+.Love-Republic ul{
+	margin-top: 30px;
+}
+.Love-Republic ul li{
+	list-style-type: none;
+}
+
+/*footer*/
+.footer{
+	background-color: #D4B9CE;
+	margin-top: 50px;
+}
+.footer-container{
+	display: flex;
+	width: 500px;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	flex-direction: column;
+}
+.about{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 15px;
+
+}
+.about > ul li{
+	list-style-type: none;
+	font-size: 20px;
+	padding: 5px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	justify-content: center;
+}
+
+.about > ul li:nth-child(2){
+	margin-right: 15px;
+	margin-left: 15px;
+}
+.about > ul > li > a{
+	color: black;
+	padding: 5px;
+}
+
+.icons{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	
+}
+.icons img:nth-child(1){
+	margin-right: 20px;
+}
+.icons img:nth-child(2){
+	margin-left: 20px;
+}
+.icons img{
+	max-width: 40px;
+}
+
+.icons a:hover{
+	padding: 0px;
+	background-color: transparent;
+}
+
+.icons a:visited{
+	color:transparent;
+}
+.icons a:link{
+	color:transparent;
+}
+.icons a:active{
+	color:transparent;
+}
+.text{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+/*кнопка наверх*/
+#scroll_top{
+	position: fixed;
+	float: right;
+	z-index: 10;
+	right: 0;
+	margin-right: 50px;
+	bottom: 50px;
+}
+
+#scroll_top img{
+	max-width: 70px;
+	cursor: pointer;
+}
+
+.isShowBtn{
+	opacity: 1;
+	transition: 0.5s;
+}
+
+.isShowBtn_hide{
+	opacity: 0;
+}
